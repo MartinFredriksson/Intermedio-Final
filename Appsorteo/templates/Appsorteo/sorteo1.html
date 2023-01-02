@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SORTEO FIN DE AÑO</title>
+
+  
+  <h1>¡BIENVENIDO AL SORTEO DE FIN
+              DE AÑO!</h1>
+
+  <p>¡COMPLETA CON TUS DATOS PARA INSCRIBIRTE!</p>
+
+</head>
+<body>
+  <form action = "sorteo/" method = "POST">{% csrf_token%}
+    
+    
+
+    <P>Nombre: <input type="text" name= "nombre"></p>
+    <p>Apellido: <input type = "text" apellido = "apellido"></p>
+    <p>Edad: <input type = "number" age = "edad" ></p>
+    
+
+    <input type="submit" value="PARTICIPAR" 
+  </form>
+
+
+</body>
+</html>
